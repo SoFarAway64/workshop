@@ -1,11 +1,24 @@
-# workshop
+# workshop readme
 
 ## NDR Hamburg Seminar
 
-This repository was made for the git workshop
-=============================================
+### This repository was made for the git workshop
+
+#### Dieses Repository wurde für den Git-Workshop erstellt
+
+##### Deze repository is gemaakt voor de git-workshop
+
+####### Ce référentiel a été créé pour l'atelier git
 
 [Über folgenden Link lässt sich die Repository aufrufen](https://github.com/SoFarAway64/workshop)
+
+### 5 Vorteile von git
+
++ Verteilte Versionskontrolle (Jeder hat eine Kopie des repositorys)
++ Bessere/Effizientere Zusammenarbeit
++ Änderungen sind nachvollziehbarer 
++ Branching und Merging 
++ Geschwindigkeit, Effizienz und Perfomance
 
 Hier ein Java Programm zur Berechnung von Monatstagen
 ===================================================== 
@@ -55,6 +68,15 @@ public class A44_Kalender {
 ```
 
 Hier ein Foto der Backrooms 
-======================
+===========================
 
 ![alt text](https://github.com/SoFarAway64/workshop/blob/main/Backrooms_model.jpg "Nett hier.")
+
+Einkaufsliste
+-------------
+* 12 Liter Orangensaft
+* 30 Orangen
+* 4 Packung Instanttee (Orangengeschmack)
+* Orangenaroma
+* 2 Packungen Himbeereis
+* 4 Dosen Felgenreiniger
