@@ -8,11 +8,11 @@
 
 ##### Deze repository is gemaakt voor de git-workshop
 
-####### Ce référentiel a été créé pour l'atelier git
+###### Ce référentiel a été créé pour l'atelier git
 
 [Über folgenden Link lässt sich die Repository aufrufen](https://github.com/SoFarAway64/workshop)
 
-### 5 Vorteile von git
+# 5 Vorteile von git
 
 + Verteilte Versionskontrolle (Jeder hat eine Kopie des repositorys)
 + Bessere/Effizientere Zusammenarbeit
