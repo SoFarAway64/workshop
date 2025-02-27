@@ -44,5 +44,6 @@ jobs:
           MESSAGE="🎉 Guten Morgen! 🌅 Es ist Montag und der wöchentliche CI-Run für **${{ github.repository }}** hat gestartet."
           curl -H "Content-Type: application/json" \
                -d "{\"content\":\"$MESSAGE\"}" \
-               ${{ DISCORD_WEBHOOK }}
+               ${{ secrets.DISCORD_WEBHOOK }}
+
 
