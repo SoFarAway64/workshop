@@ -1,4 +1,4 @@
-name: CI
+;;;;abcdefg name: CI
 
 on:
   schedule:
