@@ -1,0 +1,47 @@
+🚀 Was ist GitHub Actions?
+➡️ Eine integrierte CI/CD-Plattform direkt in GitHub.
+
+🔧 CI = Continuous Integration
+Automatisch Tests laufen lassen bei jedem Push oder Pull Request.
+Code analysieren (Linting, Security-Checks).
+Builds erzeugen (z. B. Docker-Image, Artefakte).
+Automatische Benachrichtigungen (Slack, Discord, Teams etc.).
+🚀 CD = Continuous Deployment
+Nach erfolgreichem Build direkt ausliefern.
+Deployment in Test-, Staging- oder Prod-Umgebungen.
+Release-Tags oder Versionen automatisch erzeugen.
+
+------------------------------------
+💡 Was kannst du damit alles machen?
+
+Tests ausführen	Bei jedem Commit -> Unit-/Integration-Tests starten
+Builds erstellen -> App oder Docker-Images bauen
+Releases erzeugen -> Automatisch Tags oder Changelogs erzeugen
+Deployment triggern	Code direkt auf einen Server oder in die Cloud pushen
+Notifications senden ->	Status an Discord, Slack oder Teams schicken
+Cleanup -> Z. B. alte Docker-Images löschen
+Automatisierungen -> PRs labeln, Tickets verknüpfen, Commits formatieren
+
+------------------------------------
+🔗 Was ist der Vorteil gegenüber externer CI/CD?
+
+✅ Direkt im Repo integriert
+✅ Kein extra Tool notwendig
+✅ Einfach YAML schreiben und fertig
+✅ Kostenlos für Open Source (und limitiert auch für private Repos)
+
+------------------------------------
+🏗️ Wie funktioniert es technisch?
+Ein Workflow wird definiert in einer Datei wie:
+
+.github/workflows/ci.yaml
+Dort bestimmst du:
+
+on: Wann läuft der Workflow (Push, PR, Zeitplan, manuell)?
+jobs: Welche Jobs gibt es (Build, Test, Deploy)?
+steps: Was genau passiert (Script ausführen, Tool verwenden)?
+
+------------------------------------
+🔥 Kurz gesagt:
+Mit GitHub Actions kannst du fast alles automatisieren, was im Software-Lifecycle passiert – von "Code wird geschrieben" bis "Code läuft live" 🚀.
+
