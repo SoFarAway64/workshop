@@ -7,8 +7,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Run a one-line script
-        run: echo Hello, world!
+
+      - name: Branch abhängig ausgeben
+        run: |
+          if [ "${{ github.ref }}" = "refs/heads/main" ]; then
+            echo "Hello, world! Du hast auf den Main-Branch gepusht."
+          else
+            echo "Hello, world! Du hast auf den Branch ${{ github.ref_name }} gepusht."
+          fi
+
       - name: Run a multi-line script
         run: |
           echo "Aloha"
